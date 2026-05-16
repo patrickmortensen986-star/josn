@@ -1,1 +1,108 @@
-{"buildType":"handheld","selectedPartIds":["cm4","display-7","battery-4000","speaker-stereo","thumbsticks","dpad","abxy-buttons","shoulder-buttons","menu-buttons","port-audio","port-usba","port-microsd","port-hdmi-mini","port-usbc","fan-mini","case-cnc"],"caseColor":"#00ffaa","accentColor":"#f600fa","buildName":"My Custom Build"}
+===================================
+  CUSTOM BUILD GUIDE: My Custom Build
+  Build Type: Handheld
+  Generated: 16/05/2026
+===================================
+
+PARTS LIST & SHOPPING GUIDE
+────────────────────────────
+  [SBC]
+  └─ Raspberry Pi Foundation Raspberry Pi CM4 (4GB / 32GB eMMC)
+     Price: $60
+     Specs: CPU: ARM Cortex-A72 @ 1.5GHz, RAM: 4GB LPDDR4, Storage: 32GB eMMC, Form: SO-DIMM
+     Where to buy: Amazon, Newegg, Raspberry Pi Foundation website
+  [DISPLAY]
+  └─ Raspberry Pi Foundation 7" IPS Touchscreen (1024×600)
+     Price: $52
+     Specs: Size: 7", Resolution: 1024×600, Interface: DSI, Touch: 10-point capacitive
+     Where to buy: Amazon, Newegg, Raspberry Pi Foundation website
+  [BATTERY]
+  └─ Adafruit 4000mAh LiPo Battery
+     Price: $16
+     Specs: Capacity: 4000mAh, Voltage: 3.7V, Runtime: ~5–7 hrs, Connector: JST-PH 2mm
+     Where to buy: Amazon, Newegg, Adafruit website
+  [AUDIO]
+  └─ Adafruit Stereo Speakers (2x 1.5W)
+     Price: $9
+     Specs: Channels: Stereo, Power: 1.5W x2, Impedance: 4Ω each
+     Where to buy: Amazon, Newegg, Adafruit website
+  [CONTROLS]
+  └─ Generic / Alps Dual Analog Thumbsticks (PSP-style)
+     Price: $12
+     Specs: Type: Analog Hall-effect, Voltage: 5V, Resistance: 10KΩ, Qty: x2
+     Where to buy: Amazon, Newegg, Generic / Alps website
+  [CONTROLS]
+  └─ Sanwa / Generic D-Pad (4-way)
+     Price: $8
+     Specs: Type: 4-way digital, Travel: 0.5mm, Mount: PCB-mount
+     Where to buy: Amazon, Newegg, Sanwa / Generic website
+  [CONTROLS]
+  └─ Sanwa / Seimitsu ABXY Face Buttons (x4)
+     Price: $7
+     Specs: Diameter: 12mm, Travel: 0.4mm, Actuation: 200g, Qty: x4
+     Where to buy: Amazon, Newegg, Sanwa / Seimitsu website
+  [CONTROLS]
+  └─ Generic Shoulder L/R Bumpers + Triggers (x4)
+     Price: $9
+     Specs: Type: 2x digital bumper, 2x analog trigger, Voltage: 3.3V / 5V
+     Where to buy: Amazon, Newegg, Generic website
+  [CONTROLS]
+  └─ Generic Start / Select / Home Buttons (x3)
+     Price: $5
+     Specs: Diameter: 6mm, Type: Tactile SMD, Qty: x3
+     Where to buy: Amazon, Newegg, Generic website
+  [PORTS]
+  └─ Generic 3.5mm Audio Jack
+     Price: $3
+     Specs: Type: 3.5mm TRS Stereo
+     Where to buy: Amazon, Newegg, Generic website
+  [PORTS]
+  └─ Generic USB-A Port (x2)
+     Price: $5
+     Specs: Type: USB-A 3.0, Qty: x2
+     Where to buy: Amazon, Newegg, Generic website
+  [PORTS]
+  └─ Generic MicroSD Card Slot
+     Price: $4
+     Specs: Type: MicroSD push-push, Speed: UHS-I
+     Where to buy: Amazon, Newegg, Generic website
+  [PORTS]
+  └─ Generic HDMI Mini Port
+     Price: $5
+     Specs: Type: Mini HDMI Type C, Resolution: Up to 4K@30Hz
+     Where to buy: Amazon, Newegg, Generic website
+  [PORTS]
+  └─ Generic USB-C Charging Port (BMS Module)
+     Price: $6
+     Specs: Input: USB-C 5V, Max: 5A, BMS: Overvoltage, over-current, short-circuit
+     Where to buy: Amazon, Newegg, Generic website
+  [COOLING]
+  └─ Pimoroni / Generic 30mm Active Cooling Fan
+     Price: $8
+     Specs: Size: 30×30×7mm, Voltage: 5V, Speed: 6500 RPM, Noise: ~25dB
+     Where to buy: Amazon, Newegg, Pimoroni / Generic website
+  [CASE]
+  └─ Custom Machined CNC Aluminum Enclosure
+     Price: $95
+     Specs: Material: 6061-T6 Aluminum, Finish: Anodized, Machining: 5-axis CNC
+     Where to buy: Amazon, Newegg, Custom Machined website
+
+TOTAL ESTIMATED COST: $304
+
+ASSEMBLY STEPS
+───────────────
+1. Print or source your shell (Case section above)
+2. Install the SBC onto the carrier board or case mounting points
+3. Route the display ribbon cable and secure the screen
+4. Solder or connect control buttons and thumbsticks to the GPIO/I2C breakout
+5. Connect battery through the BMS charge board to the SBC
+6. Wire all ports (USB-C, HDMI, audio) to panel-mount locations
+7. Mount cooling solution on the SBC
+8. Thread all cables and close the shell
+9. Flash your OS (RetroPie / EmulationStation / Batocera) to MicroSD
+10. Boot, configure input mapping, enjoy your custom handheld!
+
+COLOR SPEC
+───────────
+Shell Color: #00ffaa
+Accent Color: #f600fa
